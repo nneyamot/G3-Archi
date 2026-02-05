@@ -8,3 +8,88 @@
   font-weight:400px;
   font-style:  normal;
 }
+
+/* shared style  */
+
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color:#424242;
+}
+.light-gray{
+    color: #727272;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    text-size-adjust: 1.25rem;
+    font-weight: 500px;
+   
+    border-radius: 8px;
+}
+
+/* header style  */
+
+.bg-color{
+    background-color: #FF900E;
+}
+
+
+/* navbar related style  */
+
+.navbar {
+   
+    justify-content: space-between;
+    align-items: center;
+
+   
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+   
+    
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.band{
+    font-size: 3rem;
+    font-weight: 700px;
+}
+/* banner related  */
+.banner-content{
+    max-width: 850px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 4rem;
+   
+}
+.banner-img{
+    width: 100%;
+}
+
+
+
+
+/* responsive media style  */
+@media screen and (max-width:576px){
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
